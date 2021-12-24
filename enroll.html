@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>3D Navbar Animation</title>
+        <link rel="stylesheet" href="style.css" />
+   
+        
+        
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="menu">
+          <h3 class="logo">STU<span>MAN</span></h3>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+     
+
+      <div class="main-container">
+        
+
+        <div class="main">
+          <header>
+            <div class="overlay">
+              
+              <div class="inner">
+                    
+                <div class="containerform">
+                  
+                    <div class="form">
+                    <h2>Reg. Form</h2>
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="redgno">RedgNo</label>
+                            <input type="text" class="form-control" id="redgno" placeholder="Enter ur redgNo" name="redgno">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="name">Name:</label>
+                          <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+                      </div>
+            
+                      <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                      </div>
+                      <div class="form-group">
+                        <label for="dept">Department</label>
+                        <input type="text" class="form-control" id="dept" placeholder="Enter department" name="dept">
+                      </div>
+                     
+                      <button type="button" onclick="saveData()" id="save_btn" class="btn btn-default">Submit</button>
+                    </form>
+                  </div>
+                  
+                  </div>
+              
+              </div>
+              
+            </div>
+          </header>
+        </div>
+        
+        
+
+
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+      </div>
+
+      <div class="links">
+        <ul>
+          <li>
+            <a href="index.html" style="--i: 0.05s;">Home</a>
+          </li>
+          <li>
+            <a href="enroll.html" style="--i: 0.1s;">ENROLL</a>
+          </li>
+          <li>
+            <a href="demo.html" style="--i: 0.15s;">ENROLLED DETAILS</a>
+          </li>
+          
+            <a href="#" style="--i: 0.25s;">DEVELOPER</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
