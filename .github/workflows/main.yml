@@ -1,4 +1,1 @@
-- name: Test publish YML
-  # You may pin to the exact commit or the version.
-  # uses: andreneto97/action-publish@a9e267fd6bd3ef1005f48da16dcebcbbba180311
-  uses: andreneto97/action-publish@TestReleaseNew
+
